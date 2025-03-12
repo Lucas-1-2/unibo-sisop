@@ -1,0 +1,8 @@
+#!/bin/bash
+
+(( NUMSECONDI=1+(${RANDOM}%5) ))
+echo NUMSECONDI ${NUMSECONDI} $$
+sleep ${NUMSECONDI}
+echo NUMSECONDI ${NUMSECONDI} $$
+exit ${NUMSECONDI}
+
